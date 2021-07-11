@@ -2,6 +2,18 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+これは日本語だよー:apple:
+
+!!! Note
+    これはノート
+
+```csharp
+class HogeHoge{
+    //  こめんとー
+    private int hoge;
+}
+```
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
