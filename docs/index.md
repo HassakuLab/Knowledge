@@ -4,7 +4,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 これは日本語だよー:apple:
 
-!!! Note
+!!! Env "環境"
     これはノート
 
 ```csharp
