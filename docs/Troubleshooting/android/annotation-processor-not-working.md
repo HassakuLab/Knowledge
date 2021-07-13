@@ -6,7 +6,7 @@ title: Kotlin利用時にAnnotationによってコードが生成されない
 ```
 java.lang.RuntimeException: cannot find implementation for com.hassakulab.sample.XXXDatabase. XXXDatabase_Impl does not exist
 ```
-のようなエラーを吐いたりしますが、これはAnnotationが処理でコードを生成できていないのが原因なので対応していきましょう。
+のようなエラーを吐いたりしますが、これはannotationが処理でコードを生成できていないのが原因なので対応していきましょう。
 
 !!! Env "環境"
     - Gradle 6.9
@@ -16,9 +16,9 @@ java.lang.RuntimeException: cannot find implementation for com.hassakulab.sample
 ## 対応方法
 
 build.gradleで`annotationProcessor`を使っている箇所を`kapt`に置き換えます。  
-以下コードはkotlinですがgroovyでも同じですね。
+以下コードはKotlinですがGroovyでも同じですね。
 
-```kts
+```kotlin
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -54,6 +54,6 @@ Androidの公式ガイドでは`annotationProcessor`使っているので、そ�
 
 kapt is 何ってことなんですが、Java の Pluggable Annotation Processing API[^1]をKotlinから叩くための、Kotlinコンパイラのプラグインってことらしいです。Kotlin Annotation Processing Tool でkapt。
 
-[Using kapt | Kotlin](https://kotlinlang.org/docs/kapt.html) 
-
 [^1]: [The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 269](https://jcp.org/en/jsr/detail?id=269)
+
+[Using kapt | Kotlin](https://kotlinlang.org/docs/kapt.html) 
