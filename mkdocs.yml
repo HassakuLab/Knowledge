@@ -5,16 +5,16 @@ theme:
   name: material
   language: ja
   palette:
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-      primary: light green
-      accent: orange
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+      primary: light green
+      accent: orange
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
       primary: light green
       accent: orange
   features:
@@ -44,9 +44,11 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - attr_list
+  - footnotes
 
 copyright: Copyright &copy; 2021 HassakuLab
 
 plugins:
   - search
   - git-revision-date-localized
+  - awesome-pages
