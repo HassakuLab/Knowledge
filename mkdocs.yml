@@ -51,3 +51,4 @@ copyright: Copyright &copy; 2021 HassakuLab
 plugins:
   - search
   - git-revision-date-localized
+  - awesome-pages
