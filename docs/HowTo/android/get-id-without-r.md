@@ -2,11 +2,11 @@
 title: R.idを使わずにidを解決する
 ---
 
-Android開発において、BuildVariantでリソースを切り替えていると、環境によって`R.id`にidが生成されないので`R.id`を使わないidの解決方法が必要になることがあります。  
+Android開発において、BuildVariantでリソースを切り替えて`findViewById`するときなど、`R.id`を使わないidの解決方法が必要になることがあります。  
 対応として、idを実行時に解決する方法です。
 
 !!! Env "環境"
-　　- compileSdkVersion 30
+    - compileSdkVersion 30
 
 ## 方法
 
@@ -16,9 +16,10 @@ Android開発において、BuildVariantでリソースを切り替えている�
 
 ```kotlin
 /**
+ * R.idを使わずに文字列からidを取得する
  * @param idName リソースファイルに記載したIDの文字列
  */
-fun getIdFromString(context: Context, idName: String){
+fun getIdFromString(context: Context, idName: String): Int{
   return context.resources.getIdentifier(idName, "id", context.packageName)
 }
 
@@ -40,8 +41,6 @@ class FooActivity: AppCompatActivity{
 }
 
 ```
-
-layout側の例
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
