@@ -1,29 +1,19 @@
+---
+hide:
+    - toc
+---
+
 # HassakuLabのナレッジ
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+個人的なナレッジでございます。
 
-これは日本語だよー:apple:
+- [ [HowTo](/howto/) ] これどうやるんだっけ？　を記録しているところ
+- [ [Troubleshooting](/troubleshooting/) ] 遭遇した困ったことと対処を記録しているところ
 
-!!! Env "環境"
-    これはノート
+## リンクとか
 
-```csharp
-class HogeHoge{
-    //  こめんとー
-    private int hoge;
-}
-```
+- サイト [ [Home | hassakulab.com](https://hassakulab.com/) ]
 
-## Commands
+- Twitter [ [hassaku mint / はっさくみんと🍊🌱さん (@HassakuTb) / Twitter](https://twitter.com/HassakuTb) ]
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- GitHub [ [HassakuTb (Hassaku)](https://github.com/HassakuTb) ]
