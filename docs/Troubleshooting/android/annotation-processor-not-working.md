@@ -57,3 +57,4 @@ kapt is 何ってことなんですが、Java の Pluggable Annotation Processin
 [^1]: [The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 269](https://jcp.org/en/jsr/detail?id=269)
 
 [Using kapt | Kotlin](https://kotlinlang.org/docs/kapt.html) 
+

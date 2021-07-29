@@ -105,3 +105,4 @@ java.lang.IllegalStateException: This job has not completed yet
 ```
 
 待ちがある場合とかタイムアウトはどうやってテストすればいいんだ...
+
