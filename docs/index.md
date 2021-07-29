@@ -5,7 +5,7 @@ hide:
 
 # HassakuLabのナレッジ
 
-個人的なナレッジでございます。
+個人的なナレッジでございます🍊
 
 - [ [HowTo](/howto/) ] これどうやるんだっけ？　を記録しているところ
 - [ [Troubleshooting](/troubleshooting/) ] 遭遇した困ったことと対処を記録しているところ
