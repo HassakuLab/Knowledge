@@ -17,5 +17,3 @@ hide:
 - Twitter [ [hassaku mint / はっさくみんと🍊🌱さん (@HassakuTb) / Twitter](https://twitter.com/HassakuTb) ]
 
 - GitHub [ [HassakuTb (Hassaku)](https://github.com/HassakuTb) ]
-
-ほげ
