@@ -2,4 +2,5 @@ title: Troubleshooting
 nav:
   - Troubleshooting: index.md
   - Android: android
+  - Kotlin: kotlin
   
