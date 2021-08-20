@@ -2,4 +2,5 @@ title: HowTo
 nav:
   - HowTo: index.md
   - Android: android
+  - Kotlin: kotlin
   - MkDocs: mkdocs
