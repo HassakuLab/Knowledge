@@ -46,7 +46,7 @@ markdown_extensions:
   - attr_list
   - footnotes
 
-copyright: Copyright &copy; 2021 HassakuLab
+copyright: Copyright &copy; 2021-2022 HassakuLab
 
 plugins:
   - search
